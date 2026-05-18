@@ -27,8 +27,10 @@ O Mob Burger é um sistema de pedidos online próprio para a hamburgueria **Mob 
 
 | Camada | Tecnologia |
 |--------|------------|
-| Backend | Node.js + Express + Prisma ORM + PostgreSQL |
-| Frontend | Next.js 15 (App Router) + Tailwind CSS + shadcn/ui |
+| Backend | Node.js + Express v5 + Prisma v6 + PostgreSQL + TypeScript |
+| Frontend | Next.js 16 (App Router) + React 19 + TypeScript + Tailwind CSS v4 + shadcn/ui |
+| Estado / Cache | Zustand + TanStack Query |
+| Formulários | React Hook Form + Zod |
 | Pagamentos | Stripe (Pix + Cartão) |
 | Real-time | Server-Sent Events (SSE) |
 | Notificações | Z-API (WhatsApp) |
